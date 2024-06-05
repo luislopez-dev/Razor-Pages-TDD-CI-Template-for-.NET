@@ -55,7 +55,7 @@ jobs:
         run: dotnet test --configuration Release --no-build --logger trx --collect:"XPlat Code Coverage"
 
       - name: Build the Docker image
-        working-directory: path
+        working-directory: .
         run: docker build . -t "${{ secrets.DOCKER_HUB_USERNAME }}"/dotnet-app:latest
 
       - name: Setup Docker Buildx
