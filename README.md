@@ -18,7 +18,7 @@ To simplify setup and ensure consistency across environments, the project uses D
 ## YouTube Video
 For a short demonstration, I recorded the following video:
 
-[Watch on YouTube](https://youtu.be/xxxxxx)
+[Watch on YouTube](https://youtu.be/0nfXpb7OsPA?si=28_t2m6mDIMfSiVw)
 
 ## Future Considerations
 Although the project already provides a practical and functional foundation, the future may include the possibility of adopting a more complete clean architecture and introducing DDD principles if needed to handle more complex scenarios.
