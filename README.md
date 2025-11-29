@@ -1,5 +1,5 @@
 **Languages:**  
-[🇬🇧 English](README.md) | [🇬🇹 Español](README.es.md)
+[🇬🇧 English](README.en.md) | [🇬🇹 Español](README.md)
 
 ## Plantilla de Razor Pages TDD Docker & CI Para .NET
 
