@@ -1,5 +1,5 @@
 **Languages:**  
-[🇬🇹 Español](README.md) | [🌎 English](README.en.md)
+[🇬🇹 Español](README.en.md) | [🌎 English](README.md)
 
 ## Plantilla Empresarial para aplicaciones en Razor Pages y .NET
 
