@@ -1,10 +1,8 @@
 ﻿using Application.Repositories;
 using Application.Services;
-using Application.UseCases;
 using Business.Entities;
 using Business.Models;
 using Business.Services;
-using Business.UseCases;
 using Business.Validations;
 using FluentValidation;
 using Infrastructure.Data;
@@ -33,7 +31,6 @@ public static class ApplicationServiceExtensions
         services.AddScoped<IUnitOfWork, UnitOfWork>();
         services.AddScoped<IProductService, ProductService>();
         services.AddScoped<IInvoiceService, InvoiceService>();
-        services.AddScoped<ICreateProductUseCase, CreateProductUseCase>();
         services.AddScoped<IValidator<Product>, ProductValidator>();
         services.AddScoped<IValidator<Invoice>, InvoiceValidator>();
         

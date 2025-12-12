@@ -1,6 +1,5 @@
 ﻿using Business.Entities;
 using Business.Services;
-using Business.UseCases;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ViewFeatures;
@@ -19,16 +18,14 @@ namespace Presentation.Tests.Controllers;
 public class ProductsControllerTests
 {
     private readonly Mock<IProductService> _mockService;
-    private readonly Mock<ICreateProductUseCase> _mockUseCase;
     private ProductsController _controller;
     private readonly CancellationToken _token;
 
     public ProductsControllerTests()
     {
         // Arrange
-        _mockUseCase = new Mock<ICreateProductUseCase>();
         _mockService = new Mock<IProductService>();
-        _controller = new ProductsController(_mockService.Object, _mockUseCase.Object)
+        _controller = new ProductsController(_mockService.Object)
         {
             TempData = new TempDataDictionary(new DefaultHttpContext(), Mock.Of<ITempDataProvider>())
         };
@@ -226,7 +223,7 @@ public class ProductsControllerTests
         // Arrange
         var product = new Product();
 
-        _mockUseCase.Setup(useCase => useCase.InvokeAsync(product, _token))
+        _mockService.Setup(service => service.AddProductAsync(product, _token))
             .Returns(Task.CompletedTask);
         
         // Act

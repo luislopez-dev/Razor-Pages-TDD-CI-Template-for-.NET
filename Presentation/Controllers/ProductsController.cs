@@ -1,10 +1,7 @@
 ﻿
-using Application.UseCases;
 using Business.Entities;
 using Business.Exceptions.Product.Exceptions;
-using Business.Models;
 using Business.Services;
-using Business.UseCases;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Presentation.Controllers;
@@ -19,14 +16,11 @@ namespace Presentation.Controllers;
 /// </remarks>
 public class ProductsController : BaseController
 {
-    private readonly ICreateProductUseCase _createProductUseCase;
-    
     private readonly IProductService _productService;
 
-    public ProductsController(IProductService productService, ICreateProductUseCase createProductUseCase)
+    public ProductsController(IProductService productService)
     {
         _productService = productService;
-        _createProductUseCase = createProductUseCase;
     }
 
     public ActionResult Create()
@@ -154,11 +148,8 @@ public class ProductsController : BaseController
     {
         try
         {
-            await _createProductUseCase.InvokeAsync(product, cancellationToken);
-            /*
             await _productService
                 .AddProductAsync(product, cancellationToken);
-            */
 
             TempData["message"] = "¡Producto creado exitosamente!";
             
