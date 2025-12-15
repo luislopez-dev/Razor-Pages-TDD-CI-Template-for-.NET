@@ -20,7 +20,7 @@ This layer will be renamed to Domain in future updates when DDD principles are i
 
 Defines the application services and coordinates communication between the presentation layer and the business logic.
 
-#### Infrastructure
+### Infrastructure
 
 Implements technical details such as data access and external services.
 
