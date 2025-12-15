@@ -10,13 +10,23 @@ Este proyecto proporciona una base sólida para construir aplicaciones web con R
 
 ## Estructura
 
-**Business**: Incluye las reglas y comportamientos principales del negocio.  
+### Business
 
-**Application**: Define los servicios y coordina la comunicación entre la presentación y la lógica de negocio.  
+<strong>Incluye las reglas y comportamientos principales del negocio.</strong>
 
-**Infrastructure**: Implementa los detalles técnicos como acceso a datos y servicios externos.  
+Esta capa se renombrará a Domain en en futuras actualizaciones cuando se introduzcan principios DDD en el proyecto.
 
-**Presentation**: Contiene las Razor Pages y la lógica que gestiona la interacción con el usuario.  
+### Application
+
+Define los servicios y coordina la comunicación entre la presentación y la lógica de negocio.  
+
+### Infrastructure
+
+Implementa los detalles técnicos como acceso a datos y servicios externos.  
+
+### Presentation
+
+Contiene las Razor Pages y la lógica que gestiona la interacción con el usuario.  
 
 <img width="578" height="404" alt="projects-dependency-diagram" src="https://github.com/user-attachments/assets/0764a3f9-4737-4d57-aae4-deaf11605441" />
 

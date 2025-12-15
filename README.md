@@ -10,13 +10,23 @@ This project provides a solid foundation for building web applications with Razo
 
 ## Structure
 
-**Business**: Contains the core business rules.
+### Business
 
-**Application**: Defines the application services and coordinates communication between the presentation layer and the business logic.
+<strong>Contains the core business rules.</strong>
 
-**Infrastructure**: Implements technical details such as data access and external services.
+This layer will be renamed to Domain in future updates when DDD principles are introduced into the project.
 
-**Presentation**: Contains the Razor Pages and the logic that handles user interaction.
+### Application
+
+Defines the application services and coordinates communication between the presentation layer and the business logic.
+
+#### Infrastructure
+
+Implements technical details such as data access and external services.
+
+### Presentation
+
+Contains the Razor Pages and the logic that handles user interaction.
 
 <img width="578" height="404" alt="520527297-0764a3f9-4737-4d57-aae4-deaf11605441" src="https://github.com/user-attachments/assets/43d80601-16a6-4d89-8933-d0ae8cf0a267" />
 
