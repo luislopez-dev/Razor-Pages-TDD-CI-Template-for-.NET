@@ -1,7 +1,15 @@
 **Languages:**  
 [🇬🇹 Español](README.es.md) | [🌎 English](README.md)
 
-## Plantilla Empresarial para aplicaciones en Razor Pages y .NET
+## Plantilla Empresarial para aplicaciones en Razor Pages y .NET Impulsada por Selenium, Clean Architecture, TDD, Docker & Github Actions
+
+## Tabla de contenidos
+
+* [Introduction](#introduction)
+* [Technology](#technology)
+* [Pages](#pages)
+* [Version 2.0](#version-20)
+
 
 ## Introducción
 Este proyecto proporciona una base sólida para construir aplicaciones web con Razor Pages. Su objetivo es ofrecer un punto de partida claro y mantenible que pueda crecer sin complicaciones. Está pensado para equipos o desarrolladores individuales que desean comenzar con una estructura bien definida sin tener que reinventar configuraciones esenciales.

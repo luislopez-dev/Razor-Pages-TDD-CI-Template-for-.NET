@@ -1,7 +1,9 @@
 **Languages:**  
 [🇬🇹 Español](README.es.md) | [🌎 English](README.md)
 
-## Enterprise Template for apps in .NET and Razor Pages
+## Enterprise Template for apps in .NET and Razor Pages Powered by Selenium, Clean Architecture, TDD, Docker & Github Actions
+
+## Table of contents
 
 ## Instroduction
 
