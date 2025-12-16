@@ -10,6 +10,8 @@ Este proyecto proporciona una base sólida para construir aplicaciones web con R
 
 ## Estructura
 
+<img width="578" height="404" alt="projects-dependency-diagram" src="https://github.com/user-attachments/assets/0764a3f9-4737-4d57-aae4-deaf11605441" />
+
 ### Business
 
 <strong>Incluye las reglas y comportamientos principales del negocio.</strong>
@@ -27,8 +29,6 @@ Implementa los detalles técnicos como acceso a datos y servicios externos.
 ### Presentation
 
 Contiene las Razor Pages y la lógica que gestiona la interacción con el usuario.  
-
-<img width="578" height="404" alt="projects-dependency-diagram" src="https://github.com/user-attachments/assets/0764a3f9-4737-4d57-aae4-deaf11605441" />
 
 ## Enfoque de desarrollo
 La solución sigue un flujo de trabajo orientado a TDD, incorporando pruebas unitarias y de integración para validar los componentes clave y garantizar la calidad del código desde las primeras etapas del desarrollo. Además, se implementan pruebas end-to-end utilizando Selenium para verificar flujos críticos de usuario en un entorno de navegador real.

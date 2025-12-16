@@ -10,6 +10,8 @@ This project provides a solid foundation for building web applications with Razo
 
 ## Structure
 
+<img width="578" height="404" alt="520527297-0764a3f9-4737-4d57-aae4-deaf11605441" src="https://github.com/user-attachments/assets/43d80601-16a6-4d89-8933-d0ae8cf0a267" />
+
 ### Business
 
 <strong>Contains the core business rules.</strong>
@@ -27,8 +29,6 @@ Implements technical details such as data access and external services.
 ### Presentation
 
 Contains the Razor Pages and the logic that handles user interaction.
-
-<img width="578" height="404" alt="520527297-0764a3f9-4737-4d57-aae4-deaf11605441" src="https://github.com/user-attachments/assets/43d80601-16a6-4d89-8933-d0ae8cf0a267" />
 
 ## Development Approach
 The solution follows a TDD-oriented workflow, incorporating unit and integration tests to validate key components and ensure code quality from the early stages of development. In addition, end-to-end tests are implemented using Selenium to verify critical user flows in a real browser environment.
