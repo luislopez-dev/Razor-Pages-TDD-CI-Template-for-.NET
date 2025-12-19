@@ -17,7 +17,7 @@ This layer will be renamed to Domain in future updates when DDD principles are i
 
 ### Application
 
-Defines the application services and coordinates communication between the presentation layer and the business logic.
+<strong>Defines the application services and coordinates communication between the presentation layer and the business logic.</strong>
 
 These services might be refactored into individual use cases in future updates.
 
