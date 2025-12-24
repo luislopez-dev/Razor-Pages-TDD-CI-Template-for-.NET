@@ -6,7 +6,6 @@
 /// <remarks>
 /// Author: Luis López  
 /// GitHub: https://github.com/luislopez-dev
-/// 
 /// </remarks>
 public class Product
 {

@@ -1,7 +1,6 @@
 ﻿/*
  * Author: Luis René López
  * Website: https://github.com/luislopez-dev
- * 
  */
 
 

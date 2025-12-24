@@ -9,7 +9,6 @@ namespace Infrastructure.Data;
 /// <remarks>
 /// Author: Luis López  
 /// GitHub: https://github.com/luislopez-dev
-/// : 
 /// </remarks>
 public class DataContext: DbContext
 {
