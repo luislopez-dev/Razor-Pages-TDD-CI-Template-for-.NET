@@ -10,7 +10,7 @@ namespace Application.Services;
 
 
 /// <summary>
-/// SERVICE CLASS POR INVOICES
+/// APPLICATION SERVICE POR INVOICES
 /// </summary>
 /// <remarks>
 /// Author: Luis López  

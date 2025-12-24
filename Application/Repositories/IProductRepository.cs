@@ -3,7 +3,7 @@
 namespace Application.Repositories;
 
 /// <summary>
-/// PRODUCT REPOSITORY REPOSITORY
+/// PRODUCT REPOSITORY INTERFACE
 /// </summary>
 /// <remarks>
 /// Author: Luis López  

@@ -9,7 +9,7 @@ namespace Application.Services;
 
 
 /// <summary>
-/// SERVICE CLASS POR PRODUCTS
+/// APPLICATION SERVICE POR PRODUCTS
 /// </summary>
 /// <remarks>
 /// Author: Luis López  
