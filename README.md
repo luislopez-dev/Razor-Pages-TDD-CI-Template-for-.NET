@@ -3,7 +3,9 @@
 
 ## Introduction
 
-This project provides a solid foundation for building web applications with integrated DevOps tools out of the box. It is designed for teams or individual developers who want to begin with a well-defined structure without having to reinvent essential configurations.
+This project demonstrates a core foundation for building enterprise web applications with integrated DevOps tools out of the box. It is designed for teams or individual developers who want to begin with a well-defined structure without having to reinvent essential configurations.
+
+Some patterns like DTOs and isolated Use Cases were omitted due to time constraints. I’m archiving it as a structural reference.
 
 ## Structure
 
@@ -21,8 +23,6 @@ The adoption of DDD principles for this layer is currently being evaluated for a
 
 The services in this project might be refactored into individual use cases, 
 and the whole layer might be refactored with a Vertical-Slice approach in future updates.
-
-Integrating DTOs is on the roadmap for a future release.
 
 ### Infrastructure
 
