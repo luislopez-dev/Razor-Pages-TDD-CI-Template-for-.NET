@@ -37,6 +37,8 @@ The repositories in this template could be refactored through a generic reposito
 
 <strong>Contains the logic that handles user interaction.</strong>
 
+Future updates will remove infrastructure dependencies from the UI, enforcing a unidirectional flow where Presentation depends only on Application logic.
+
 ## DevOps
 
 The repository includes a CI pipeline built with GitHub Actions. This workflow automates test execution and verifies that every change meets the defined standards. The pipeline additionally containerizes the project with Docker and deploys the resulting image to Docker Hub.
