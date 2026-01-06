@@ -8,7 +8,13 @@
 
 This repository is intended for educational and experimental purposes only. It is not production-ready and should not be used in live or critical environments.
 
-## Structure
+## Business Logic
+
+This project emulates an inventory and billing management system.
+
+<img width="502" height="666" alt="Project (2)" src="https://github.com/user-attachments/assets/3f4cfc0b-f3db-4386-9957-512fa464e485" />
+
+## Software architecture
 
 <img width="502" height="666" alt="Project (2)" src="https://github.com/user-attachments/assets/94f83562-dd4e-4bc9-b52b-e6d430d5940b" />
 
@@ -36,12 +42,6 @@ The repository includes a CI pipeline built with GitHub Actions. This workflow a
 
 ## Runtime Environment
 The project uses Docker Compose for consistent environment setup. This includes SQL Server support, enabling easy replication of realistic database environments for both development and testing.
-
-## Business Logic
-
-This project emulates an inventory and billing management system.
-
-![demo-ca (3) (1).jpg](../../Downloads/demo-ca%20%283%29%20%281%29.jpg)
 
 ## Testing
 The solution follows a TDD workflow with unit and integration tests to ensure early code quality. Additionally, Selenium is used for end-to-end testing to verify critical user flows in a real browser.
