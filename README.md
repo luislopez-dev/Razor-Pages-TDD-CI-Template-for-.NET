@@ -8,7 +8,9 @@
 
 This repository is intended for educational and experimental purposes only. It is not production-ready and should not be used in live or critical environments.
 
-<strong>This project focuses on high-level architecture.</strong> Some patterns like dtos and isolated use cases have been omitted. I might continue to refine this project in future updates as time permits. If you need references on how to use DTOs and other patterns which are not included in this project feel free to review this repo: https://github.com/luislopez-dev/.Net-datingApp-web-api
+<strong>This project focuses on high-level architecture.</strong> Some patterns like dtos and isolated use cases have been omitted. I might continue to refine this project in future updates as time permits. If you need references on how to use DTOs, the mediator pattern and other patterns which are not included in this project feel free to review my other repos: 
+* https://github.com/luislopez-dev/.Net-datingApp-web-api
+* https://github.com/luislopez-dev/.NET-MEDIATOR-PATTERN-IMPL
 
 ## Business Logic
 
