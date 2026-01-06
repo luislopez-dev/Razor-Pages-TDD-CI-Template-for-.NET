@@ -8,8 +8,7 @@
 
 <strong>This repository is intended for educational and experimental purposes only. It is not production-ready and should not be used in live or critical environments.</strong>
 
-Some patterns like dtos and isolated use cases have been omitted due to time constraints. I might continue to refine this project in future updates. 
-If you need references on how to use DTOs and other patterns feel free to review this project: https://github.com/luislopez-dev/.Net-datingApp-web-api/tree/main/datingApp
+<strong>This project focuses on high-level architecture.</strong> Some patterns like dtos and isolated use cases have been omitted. I might continue to refine this project in future updates as time permits. If you need references on how to use DTOs and other patterns which are not included in this project feel free to review this repo: https://github.com/luislopez-dev/.Net-datingApp-web-api
 
 ## Business Logic
 
